@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Mail, Lock } from 'lucide-react';
-import { Button } from './ui/Button';
-import { Input } from './ui/Input';
+import { Button } from './ui/AppButton';
+import { Input } from './ui/AppInput';
 
 interface LoginProps {
   onLogin: () => void;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Card } from './ui/Card';
-import { Input } from './ui/Input';
+import { Card } from './ui/AppCard';
+import { Input } from './ui/AppInput';
 import { Search, CheckCircle2, Circle, Clock } from 'lucide-react';
 
 const mockTasks = [
